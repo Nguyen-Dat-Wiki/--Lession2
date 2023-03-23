@@ -64,7 +64,6 @@ class product_content{
 
                     for ($i = $page - 2; $i <= $total_pages; $i++) {
                         if ($i == 0) {
-                            echo 'Lỗi';
                         }
                         /* khi page >= 2 thì hiện các btn page sau   */
                         else if ($i <= $total_pages - ($temp++ - $page)) {
